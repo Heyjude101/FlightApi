@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 4000;
 
 const dummyflightsData = [
     { source: "Delhi", destination: "Mumbai", date: "2023-05-25", price: 2500, flight_name: "Air India" },
-    { source: "Delhi", destination: "Mumbai", date: "2023-05-15", price: 4500, flight_name: "Go Air" },
+    { source: "Delhi", destination: "Mumbai", date: "2023-05-25", price: 4500, flight_name: "Go Air" },
     { source: "Mumbai", destination: "Chennai", date: "2023-06-12", price: 3000, flight_name: "IndiGo" },
     { source: "Chennai", destination: "Kolkata", date: "2023-05-16", price: 3500, flight_name: "SpiceJet" },
     { source: "Kolkata", destination: "Bangalore", date: "2023-05-30", price: 4000, flight_name: "Vistara" },
